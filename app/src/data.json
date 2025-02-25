@@ -1,0 +1,192 @@
+[
+  {
+    "year": 2025,
+    "month": "january",
+    "events": [
+      {
+        "start_date": "2025-01-01",
+        "end_date": null,
+        "description": "Confraternização Universal (feriado nacional)"
+      },
+      {
+        "start_date": "2025-01-02",
+        "end_date": "2025-01-19",
+        "description": "Dias escolares não letivos (Férias docentes) - 18 dias"
+      },
+      {
+        "start_date": "2025-01-06",
+        "end_date": "2025-01-10",
+        "description": "Período para matrícula dos estudantes aprovados no edital de Transferência Externa e Reingresso"
+      }
+    ],
+    "colored_days": [
+      { "day": "2025-01-01", "type": "feriado" },
+      { "day": "2025-01-02", "type": "ferias" },
+      { "day": "2025-01-03", "type": "ferias" },
+      { "day": "2025-01-04", "type": "ferias" },
+      { "day": "2025-01-05", "type": "ferias" },
+      { "day": "2025-01-06", "type": "ferias" },
+      { "day": "2025-01-07", "type": "ferias" },
+      { "day": "2025-01-08", "type": "ferias" },
+      { "day": "2025-01-09", "type": "ferias" },
+      { "day": "2025-01-10", "type": "ferias" },
+      { "day": "2025-01-11", "type": "ferias" },
+      { "day": "2025-01-12", "type": "ferias" },
+      { "day": "2025-01-13", "type": "ferias" },
+      { "day": "2025-01-14", "type": "ferias" },
+      { "day": "2025-01-15", "type": "ferias" },
+      { "day": "2025-01-16", "type": "ferias" },
+      { "day": "2025-01-17", "type": "ferias" },
+      { "day": "2025-01-18", "type": "ferias" },
+      { "day": "2025-01-19", "type": "ferias" }
+    ]
+  },
+  {
+    "year": 2025,
+    "month": "february",
+    "events": [
+      {
+        "start_date": "2025-02-03",
+        "end_date": "2025-02-21",
+        "description": "Matrícula Novatos"
+      },
+      {
+        "start_date": "2025-02-20",
+        "end_date": null,
+        "description": "Dia Nacional de Combate às Drogas e ao Alcoolismo"
+      },
+      {
+        "start_date": "2025-02-26",
+        "end_date": null,
+        "description": "Data limite para requerimento de participação em Solenidade de Formatura/Colação de Grau (para o período regular)"
+      }
+    ],
+    "colored_days": []
+  },
+  {
+    "year": 2025,
+    "month": "march",
+    "events": [
+      {
+        "start_date": "2025-03-03",
+        "end_date": "2025-03-04",
+        "description": "Carnaval (ponto facultativo)"
+      },
+      {
+        "start_date": "2025-03-05",
+        "end_date": null,
+        "description": "Quarta-feira de cinzas (ponto facultativo até às 14 horas)"
+      },
+      {
+        "start_date": "2025-03-07",
+        "end_date": null,
+        "description": "Comemoração do Dia Internacional da Mulher"
+      },
+      {
+        "start_date": "2025-03-08",
+        "end_date": null,
+        "description": "Dia Internacional da Mulher"
+      },
+      {
+        "start_date": "2025-03-12",
+        "end_date": null,
+        "description": "Planejamento Pedagógico/Administrativo"
+      },
+      {
+        "start_date": "2025-03-14",
+        "end_date": null,
+        "description": "Planejamento Pedagógico/Administrativo"
+      },
+      {
+        "start_date": "2025-03-14",
+        "end_date": "2025-03-19",
+        "description": "Período para renovação de matrícula"
+      },
+      {
+        "start_date": "2025-03-18",
+        "end_date": null,
+        "description": "Dia da autonomia do Tocantins"
+      },
+      {
+        "start_date": "2025-03-19",
+        "end_date": null,
+        "description": "Dia de São José, padroeiro de Palmas (feriado municipal)"
+      },
+      {
+        "start_date": "2025-03-20",
+        "end_date": null,
+        "description": "Início do 1º Bimestre Letivo"
+      },
+      {
+        "start_date": "2025-03-20",
+        "end_date": null,
+        "description": "Início do 1º Semestre letivo de 2025/1"
+      },
+      {
+        "start_date": "2025-03-20",
+        "end_date": "2025-03-26",
+        "description": "Período para protocolar requerimento de Exame de Proficiência e Aproveitamento de Estudos por estudantes novatos"
+      },
+      {
+        "start_date": "2025-03-20",
+        "end_date": "2025-03-28",
+        "description": "Período para protocolar requerimento de inscrição como estudante ouvinte"
+      },
+      {
+        "start_date": "2025-03-20",
+        "end_date": "2025-03-28",
+        "description": "Semana do Acolhimento"
+      },
+      {
+        "start_date": "2025-03-22",
+        "end_date": null,
+        "description": "Sábado letivo referente à segunda-feira"
+      },
+      {
+        "start_date": "2025-03-25",
+        "end_date": null,
+        "description": "Data limite para cadastrar, via sistema escolar/acadêmico, o Plano de Ensino"
+      },
+      {
+        "start_date": "2025-03-26",
+        "end_date": "2025-03-29",
+        "description": "Data da Solenidade de Formatura/Colação de Grau (para período regular)"
+      },
+      {
+        "start_date": "2025-03-29",
+        "end_date": null,
+        "description": "Sábado letivo referente à sexta-feira"
+      },
+      {
+        "start_date": "2025-03-31",
+        "end_date": null,
+        "description": "Data limite para o envio dos Planos de Trabalho Docente (PIT) devidamente assinados pela chefia imediata"
+      }
+    ],
+    "colored_days": [
+      { "day": "2025-03-03", "type": "ponto_facultativo" },
+      { "day": "2025-03-04", "type": "ponto_facultativo" },
+      { "day": "2025-03-05", "type": "ponto_facultativo" },
+      { "day": "2025-03-06", "type": "dia_nao_letivo" },
+      { "day": "2025-03-07", "type": "dia_nao_letivo" },
+      { "day": "2025-03-10", "type": "dia_nao_letivo" },
+      { "day": "2025-03-11", "type": "dia_nao_letivo" },
+      { "day": "2025-03-12", "type": "planejamento_pedagogico" },
+      { "day": "2025-03-13", "type": "dia_nao_letivo" },
+      { "day": "2025-03-14", "type": "planejamento_pedagogico" },
+      { "day": "2025-03-17", "type": "dia_nao_letivo" },
+      { "day": "2025-03-18", "type": "dia_nao_letivo" },
+      { "day": "2025-03-19", "type": "feriado" },
+      { "day": "2025-03-20", "type": "dia_letivo" },
+      { "day": "2025-03-21", "type": "dia_letivo" },
+      { "day": "2025-03-22", "type": "dia_letivo" },
+      { "day": "2025-03-24", "type": "dia_letivo" },
+      { "day": "2025-03-25", "type": "dia_letivo" },
+      { "day": "2025-03-26", "type": "dia_letivo" },
+      { "day": "2025-03-27", "type": "dia_letivo" },
+      { "day": "2025-03-28", "type": "dia_letivo" },
+      { "day": "2025-03-29", "type": "dia_letivo" },
+      { "day": "2025-03-31", "type": "dia_letivo" }
+    ]
+  }
+]
