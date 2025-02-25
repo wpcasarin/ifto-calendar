@@ -5,16 +5,16 @@ import { EventInfo } from './EventInfo';
 import { useState } from 'react';
 import { getDatesBetween } from '../utils';
 
-const getCalendarUrl = (date: Date, message: string) => {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, '0');
-  const day = String(date.getDate()).padStart(2, '0');
-  const stringDate = `${year}${month}${day}`;
-  const sanitizedMessage = encodeURIComponent(message);
+// const getCalendarUrl = (date: Date, message: string) => {
+//   const year = date.getFullYear();
+//   const month = String(date.getMonth() + 1).padStart(2, '0');
+//   const day = String(date.getDate()).padStart(2, '0');
+//   const stringDate = `${year}${month}${day}`;
+//   const sanitizedMessage = encodeURIComponent(message);
 
-  const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=IFTO&dates=${stringDate}/${stringDate}&details=${sanitizedMessage}`;
-  window.open(url, '_blank', 'noopener,noreferrer');
-};
+//   const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=IFTO&dates=${stringDate}/${stringDate}&details=${sanitizedMessage}`;
+//   window.open(url, '_blank', 'noopener,noreferrer');
+// };
 
 export type EventType = {
   date: Date;
@@ -78,7 +78,8 @@ export const Calendar = () => {
         }}
         className="react-day-picker"
       />
-      {currentEvents?.length > 0 && <EventInfo events={currentEvents} />}
+
+      {currentEvents !== undefined && currentEvents.length > 0 ? <EventInfo events={currentEvents} /> : null}
     </div>
   );
 };
