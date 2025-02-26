@@ -1,2 +1,11 @@
 @import 'tailwindcss';
 @plugin "daisyui";
+
+@theme {
+  --color-ferias: #f5e0dc;
+  --color-feriado: #f38ba8;
+  --color-dnl: #f9e2af;
+  --color-ppa: #89dceb;
+  --color-pf: #89b4fa;
+  --color-dl: #94e2d5;
+}

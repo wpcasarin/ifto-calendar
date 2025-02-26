@@ -7,7 +7,7 @@ export type EventInfoType = {
 export const EventInfo: React.FC<EventInfoType> = (props) => {
   return (
     <>
-      <div role="alert" className="alert m-4 w-full">
+      <div role="alert" className="alert w-full">
         {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

@@ -54,7 +54,7 @@ export const Calendar = () => {
   };
 
   return (
-    <div className="mx-auto flex flex-col items-center">
+    <div className="mx-auto flex flex-col items-center gap-2 px-4">
       <DayPicker
         locale={ptBR}
         mode="single"
@@ -69,16 +69,16 @@ export const Calendar = () => {
           dl: dlDate,
         }}
         modifiersClassNames={{
-          feriados: 'bg-red-600 text-white hover:text-black',
-          ferias: 'bg-blue-300',
-          pf: 'bg-blue-700 text-white hover:text-black',
-          dnl: 'bg-yellow-500',
-          ppa: 'bg-cyan-300',
-          dl: 'underline font-bold',
+          feriados: 'bg-error',
+          ferias: 'bg-ferias',
+          pf: 'bg-pf',
+          dnl: 'bg-dnl',
+          ppa: 'bg-ppa',
+          dl: 'bg-dl font-bold',
         }}
         className="react-day-picker"
       />
-
+      <div className="bg-accent bg-error bg-warning"></div>
       {currentEvents !== undefined && currentEvents.length > 0 ? <EventInfo events={currentEvents} /> : null}
     </div>
   );

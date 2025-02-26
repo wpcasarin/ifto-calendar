@@ -188,5 +188,113 @@
       { "day": "2025-03-29", "type": "dia_letivo" },
       { "day": "2025-03-31", "type": "dia_letivo" }
     ]
+  },
+  {
+    "year": 2025,
+    "month": "april",
+    "events": [
+      {
+        "start_date": "2025-04-01",
+        "end_date": "2025-04-02",
+        "description": "Período para realização do Exame de Proficiência e Aproveitamento de Estudos por estudantes novatos"
+      },
+      {
+        "start_date": "2025-04-02",
+        "end_date": null,
+        "description": "Data limite para a publicação dos planos individuais de trabalho docente (PIT) no Portal Institucional"
+      },
+      {
+        "start_date": "2025-04-04",
+        "end_date": null,
+        "description": "Aniversário do Campus Palmas"
+      },
+      {
+        "start_date": "2025-04-04",
+        "end_date": null,
+        "description": "Data para a publicação do resultado do Exame de Proficiência e Aproveitamento de Estudos por estudantes novatos"
+      },
+      {
+        "start_date": "2025-04-04",
+        "end_date": null,
+        "description": "Periodo/data limite para requerimento de participação em solenidade de formatura/colação de grau em gabinete"
+      },
+      {
+        "start_date": "2025-04-04",
+        "end_date": null,
+        "description": "Reunião bimestral ordinária de cada Colegiado de Curso"
+      },
+      {
+        "start_date": "2025-04-05",
+        "end_date": null,
+        "description": "Sábado letivo referente à terça-feira"
+      },
+      {
+        "start_date": "2025-04-06",
+        "end_date": null,
+        "description": "Data limite para protocolar requerimento de trancamento de componente curricular"
+      },
+      {
+        "start_date": "2025-04-07",
+        "end_date": null,
+        "description": "Data limite para atualização da situação do estudante na disciplina para a qual teve Proficiência e/ou Aproveitamento de Estudos deferido (Novato)"
+      },
+      {
+        "start_date": "2025-04-07",
+        "end_date": null,
+        "description": "Período para inclusão de matrícula para estudantes novatos que obtiveram êxito nos procedimentos de Exame de Proficiência e Aproveitamento de Estudos"
+      },
+      {
+        "start_date": "2025-04-12",
+        "end_date": null,
+        "description": "Sábado letivo referente à quinta-feira"
+      },
+      {
+        "start_date": "2025-04-18",
+        "end_date": null,
+        "description": "Paixão de Cristo (feriado nacional)"
+      },
+      {
+        "start_date": "2025-04-19",
+        "end_date": null,
+        "description": "Dia dos Povos Indígenas"
+      },
+      {
+        "start_date": "2025-04-21",
+        "end_date": null,
+        "description": "Tiradentes (feriado nacional)"
+      },
+      {
+        "start_date": "2025-04-26",
+        "end_date": null,
+        "description": "Sábado letivo referente à quarta-feira"
+      }
+    ],
+    "colored_days": [
+      { "day": "2025-04-01", "type": "dia_letivo" },
+      { "day": "2025-04-02", "type": "dia_letivo" },
+      { "day": "2025-04-03", "type": "dia_letivo" },
+      { "day": "2025-04-04", "type": "dia_letivo" },
+      { "day": "2025-04-05", "type": "dia_letivo" },
+      { "day": "2025-04-07", "type": "dia_letivo" },
+      { "day": "2025-04-08", "type": "dia_letivo" },
+      { "day": "2025-04-09", "type": "dia_letivo" },
+      { "day": "2025-04-10", "type": "dia_letivo" },
+      { "day": "2025-04-11", "type": "dia_letivo" },
+      { "day": "2025-04-12", "type": "dia_letivo" },
+      { "day": "2025-04-14", "type": "dia_letivo" },
+      { "day": "2025-04-15", "type": "dia_letivo" },
+      { "day": "2025-04-16", "type": "dia_letivo" },
+      { "day": "2025-04-17", "type": "dia_letivo" },
+      { "day": "2025-04-18", "type": "feriado" },
+      { "day": "2025-04-21", "type": "feriado" },
+      { "day": "2025-04-22", "type": "dia_letivo" },
+      { "day": "2025-04-23", "type": "dia_letivo" },
+      { "day": "2025-04-24", "type": "dia_letivo" },
+      { "day": "2025-04-25", "type": "dia_letivo" },
+      { "day": "2025-04-26", "type": "dia_letivo" },
+      { "day": "2025-04-28", "type": "dia_letivo" },
+      { "day": "2025-04-29", "type": "dia_letivo" },
+      { "day": "2025-04-30", "type": "dia_letivo" }
+    ]
   }
 ]
