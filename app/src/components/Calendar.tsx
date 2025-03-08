@@ -27,6 +27,7 @@ export const Calendar = () => {
   const colors = data.flatMap((item) => item.colored_days);
   const events = data.flatMap((item) => item.events);
 
+  const efDate = colors.filter((v) => v.type === 'exames_finais').map((v) => new Date(v.day + 'T00:00:00'));
   const feriadosDate = colors.filter((v) => v.type === 'feriado').map((v) => new Date(v.day + 'T00:00:00'));
   const feriasDate = colors.filter((v) => v.type === 'ferias').map((v) => new Date(v.day + 'T00:00:00'));
   const dnlDate = colors.filter((v) => v.type === 'dia_nao_letivo').map((v) => new Date(v.day + 'T00:00:00'));
@@ -61,6 +62,7 @@ export const Calendar = () => {
         selected={undefined}
         onSelect={(date) => handleEvents(date)}
         modifiers={{
+          ef: efDate,
           feriados: feriadosDate,
           ferias: feriasDate,
           pf: pfDate,
@@ -69,6 +71,7 @@ export const Calendar = () => {
           dl: dlDate,
         }}
         modifiersClassNames={{
+          ef: 'bg-ef',
           feriados: 'bg-error',
           ferias: 'bg-ferias',
           pf: 'bg-pf',
