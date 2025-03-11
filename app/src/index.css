@@ -2,6 +2,7 @@
 @plugin "daisyui";
 
 @theme {
+  --color-fs: #179299;
   --color-ef: #fe640b;
   --color-ferias: #f5e0dc;
   --color-feriado: #f38ba8;

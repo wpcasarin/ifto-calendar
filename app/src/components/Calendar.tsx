@@ -22,11 +22,13 @@ export type EventType = {
 };
 
 export const Calendar = () => {
+  const [month, setMonth] = useState(new Date());
   const [currentEvents, setCurrentEvents] = useState<EventType[] | undefined>();
 
   const colors = data.flatMap((item) => item.colored_days);
   const events = data.flatMap((item) => item.events);
 
+  const fsDate = colors.filter((v) => v.type === 'final_de_semana').map((v) => new Date(v.day + 'T00:00:00'));
   const efDate = colors.filter((v) => v.type === 'exames_finais').map((v) => new Date(v.day + 'T00:00:00'));
   const feriadosDate = colors.filter((v) => v.type === 'feriado').map((v) => new Date(v.day + 'T00:00:00'));
   const feriasDate = colors.filter((v) => v.type === 'ferias').map((v) => new Date(v.day + 'T00:00:00'));
@@ -57,11 +59,21 @@ export const Calendar = () => {
   return (
     <div className="mx-auto flex flex-col items-center gap-2 px-4">
       <DayPicker
+        footer={
+          currentEvents !== undefined && currentEvents.length > 0 ? (
+            <EventInfo events={currentEvents} />
+          ) : null
+        }
+        month={month}
+        onMonthChange={setMonth}
+        startMonth={new Date(2025, 0)}
+        endMonth={new Date(2026, 1)}
         locale={ptBR}
         mode="single"
         selected={undefined}
         onSelect={(date) => handleEvents(date)}
         modifiers={{
+          fs: fsDate,
           ef: efDate,
           feriados: feriadosDate,
           ferias: feriasDate,
@@ -71,6 +83,7 @@ export const Calendar = () => {
           dl: dlDate,
         }}
         modifiersClassNames={{
+          fs: 'bg-fs',
           ef: 'bg-ef',
           feriados: 'bg-error',
           ferias: 'bg-ferias',
@@ -81,8 +94,28 @@ export const Calendar = () => {
         }}
         className="react-day-picker"
       />
-      <div className="bg-accent bg-error bg-warning"></div>
-      {currentEvents !== undefined && currentEvents.length > 0 ? <EventInfo events={currentEvents} /> : null}
+      <div className="bg-base-100 border-base-300 collapse border">
+        <input type="checkbox" defaultChecked={false} />
+        <div className="collapse-title font-semibold">Lista de eventos</div>
+
+        <div className="collapse-content text-sm">
+          <table className="table">
+            <tbody>
+              {events?.map((e) => {
+                const start = new Date(`${e.start_date}T00:00:00`);
+                if (month.getMonth() === start.getMonth()) {
+                  return (
+                    <tr className="text-xs">
+                      <td className="pl-0">{e.start_date}</td>
+                      <td className="pr-0">{e.description}</td>
+                    </tr>
+                  );
+                }
+              })}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 };

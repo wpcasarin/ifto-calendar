@@ -38,7 +38,9 @@
       { "day": "2025-01-16", "type": "ferias" },
       { "day": "2025-01-17", "type": "ferias" },
       { "day": "2025-01-18", "type": "ferias" },
-      { "day": "2025-01-19", "type": "ferias" }
+      { "day": "2025-01-19", "type": "ferias" },
+      { "day": "2025-01-25", "type": "final_de_semana" },
+      { "day": "2025-01-26", "type": "final_de_semana" }
     ]
   },
   {
@@ -61,7 +63,16 @@
         "description": "Data limite para requerimento de participação em Solenidade de Formatura/Colação de Grau (para o período regular)"
       }
     ],
-    "colored_days": []
+    "colored_days": [
+      { "day": "2025-02-01", "type": "final_de_semana" },
+      { "day": "2025-02-02", "type": "final_de_semana" },
+      { "day": "2025-02-08", "type": "final_de_semana" },
+      { "day": "2025-02-09", "type": "final_de_semana" },
+      { "day": "2025-02-15", "type": "final_de_semana" },
+      { "day": "2025-02-16", "type": "final_de_semana" },
+      { "day": "2025-02-22", "type": "final_de_semana" },
+      { "day": "2025-02-23", "type": "final_de_semana" }
+    ]
   },
   {
     "year": 2025,
@@ -164,28 +175,36 @@
       }
     ],
     "colored_days": [
+      { "day": "2025-03-01", "type": "final_de_semana" },
+      { "day": "2025-03-02", "type": "final_de_semana" },
       { "day": "2025-03-03", "type": "ponto_facultativo" },
       { "day": "2025-03-04", "type": "ponto_facultativo" },
       { "day": "2025-03-05", "type": "ponto_facultativo" },
       { "day": "2025-03-06", "type": "dia_nao_letivo" },
       { "day": "2025-03-07", "type": "dia_nao_letivo" },
+      { "day": "2025-03-08", "type": "final_de_semana" },
+      { "day": "2025-03-09", "type": "final_de_semana" },
       { "day": "2025-03-10", "type": "dia_nao_letivo" },
       { "day": "2025-03-11", "type": "dia_nao_letivo" },
-      { "day": "2025-03-12", "type": "planejamento_pedagogico" },
+      { "day": "2025-03-12", "type": "dia_nao_letivo" },
       { "day": "2025-03-13", "type": "dia_nao_letivo" },
-      { "day": "2025-03-14", "type": "planejamento_pedagogico" },
+      { "day": "2025-03-14", "type": "dia_nao_letivo" },
+      { "day": "2025-03-15", "type": "final_de_semana" },
+      { "day": "2025-03-16", "type": "dia_nao_letivo" },
       { "day": "2025-03-17", "type": "dia_nao_letivo" },
       { "day": "2025-03-18", "type": "dia_nao_letivo" },
       { "day": "2025-03-19", "type": "feriado" },
       { "day": "2025-03-20", "type": "dia_letivo" },
       { "day": "2025-03-21", "type": "dia_letivo" },
       { "day": "2025-03-22", "type": "dia_letivo" },
+      { "day": "2025-03-23", "type": "dia_nao_letivo" },
       { "day": "2025-03-24", "type": "dia_letivo" },
       { "day": "2025-03-25", "type": "dia_letivo" },
       { "day": "2025-03-26", "type": "dia_letivo" },
       { "day": "2025-03-27", "type": "dia_letivo" },
       { "day": "2025-03-28", "type": "dia_letivo" },
       { "day": "2025-03-29", "type": "dia_letivo" },
+      { "day": "2025-03-30", "type": "dia_nao_letivo" },
       { "day": "2025-03-31", "type": "dia_letivo" }
     ]
   },
@@ -275,23 +294,28 @@
       { "day": "2025-04-03", "type": "dia_letivo" },
       { "day": "2025-04-04", "type": "dia_letivo" },
       { "day": "2025-04-05", "type": "dia_letivo" },
+      { "day": "2025-04-06", "type": "final_de_semana" },
       { "day": "2025-04-07", "type": "dia_letivo" },
       { "day": "2025-04-08", "type": "dia_letivo" },
       { "day": "2025-04-09", "type": "dia_letivo" },
       { "day": "2025-04-10", "type": "dia_letivo" },
       { "day": "2025-04-11", "type": "dia_letivo" },
       { "day": "2025-04-12", "type": "dia_letivo" },
+      { "day": "2025-04-13", "type": "final_de_semana" },
       { "day": "2025-04-14", "type": "dia_letivo" },
       { "day": "2025-04-15", "type": "dia_letivo" },
       { "day": "2025-04-16", "type": "dia_letivo" },
       { "day": "2025-04-17", "type": "dia_letivo" },
       { "day": "2025-04-18", "type": "feriado" },
+      { "day": "2025-04-19", "type": "final_de_semana" },
+      { "day": "2025-04-20", "type": "final_de_semana" },
       { "day": "2025-04-21", "type": "feriado" },
       { "day": "2025-04-22", "type": "dia_letivo" },
       { "day": "2025-04-23", "type": "dia_letivo" },
       { "day": "2025-04-24", "type": "dia_letivo" },
       { "day": "2025-04-25", "type": "dia_letivo" },
       { "day": "2025-04-26", "type": "dia_letivo" },
+      { "day": "2025-04-27", "type": "final_de_semana" },
       { "day": "2025-04-28", "type": "dia_letivo" },
       { "day": "2025-04-29", "type": "dia_letivo" },
       { "day": "2025-04-30", "type": "dia_letivo" }
@@ -367,11 +391,6 @@
         "description": "III Semana Acadêmica de Sistemas para Internet"
       },
       {
-        "start_date": "2025-05-24",
-        "end_date": null,
-        "description": "Sábado letivo referente à sexta-feira"
-      },
-      {
         "start_date": "2025-05-27",
         "end_date": null,
         "description": "Término do 1º bimestre letivo"
@@ -395,23 +414,29 @@
     "colored_days": [
       { "day": "2025-05-01", "type": "feriado" },
       { "day": "2025-05-02", "type": "dia_nao_letivo" },
+      { "day": "2025-05-03", "type": "final_de_semana" },
+      { "day": "2025-05-04", "type": "final_de_semana" },
       { "day": "2025-05-05", "type": "dia_letivo" },
       { "day": "2025-05-06", "type": "dia_letivo" },
       { "day": "2025-05-07", "type": "dia_letivo" },
       { "day": "2025-05-08", "type": "dia_letivo" },
       { "day": "2025-05-09", "type": "dia_letivo" },
       { "day": "2025-05-10", "type": "dia_letivo" },
+      { "day": "2025-05-11", "type": "final_de_semana" },
       { "day": "2025-05-12", "type": "dia_letivo" },
       { "day": "2025-05-13", "type": "dia_letivo" },
       { "day": "2025-05-14", "type": "dia_letivo" },
       { "day": "2025-05-15", "type": "dia_letivo" },
       { "day": "2025-05-16", "type": "dia_letivo" },
       { "day": "2025-05-17", "type": "dia_letivo" },
+      { "day": "2025-05-18", "type": "final_de_semana" },
       { "day": "2025-05-19", "type": "dia_nao_letivo" },
       { "day": "2025-05-20", "type": "feriado" },
       { "day": "2025-05-21", "type": "dia_letivo" },
       { "day": "2025-05-22", "type": "dia_letivo" },
       { "day": "2025-05-23", "type": "dia_letivo" },
+      { "day": "2025-05-24", "type": "final_de_semana" },
+      { "day": "2025-05-25", "type": "final_de_semana" },
       { "day": "2025-05-26", "type": "dia_letivo" },
       { "day": "2025-05-27", "type": "dia_letivo" },
       { "day": "2025-05-28", "type": "dia_letivo" },
@@ -506,35 +531,35 @@
       }
     ],
     "colored_days": [
-      { "day": "2025-06-01", "type": "dia_nao_letivo" },
+      { "day": "2025-06-01", "type": "final_de_semana" },
       { "day": "2025-06-02", "type": "dia_letivo" },
       { "day": "2025-06-03", "type": "dia_letivo" },
       { "day": "2025-06-04", "type": "dia_letivo" },
       { "day": "2025-06-05", "type": "dia_letivo" },
       { "day": "2025-06-06", "type": "dia_letivo" },
       { "day": "2025-06-07", "type": "dia_letivo" },
-      { "day": "2025-06-08", "type": "dia_nao_letivo" },
+      { "day": "2025-06-08", "type": "final_de_semana" },
       { "day": "2025-06-09", "type": "dia_letivo" },
       { "day": "2025-06-10", "type": "dia_letivo" },
       { "day": "2025-06-11", "type": "dia_letivo" },
       { "day": "2025-06-12", "type": "dia_letivo" },
       { "day": "2025-06-13", "type": "dia_letivo" },
       { "day": "2025-06-14", "type": "dia_letivo" },
-      { "day": "2025-06-15", "type": "dia_nao_letivo" },
+      { "day": "2025-06-15", "type": "final_de_semana" },
       { "day": "2025-06-16", "type": "dia_letivo" },
       { "day": "2025-06-17", "type": "dia_letivo" },
       { "day": "2025-06-18", "type": "dia_letivo" },
       { "day": "2025-06-19", "type": "ponto_facultativo" },
       { "day": "2025-06-20", "type": "ponto_facultativo" },
-      { "day": "2025-06-21", "type": "dia_nao_letivo" },
-      { "day": "2025-06-22", "type": "dia_nao_letivo" },
+      { "day": "2025-06-21", "type": "final_de_semana" },
+      { "day": "2025-06-22", "type": "final_de_semana" },
       { "day": "2025-06-23", "type": "dia_letivo" },
       { "day": "2025-06-24", "type": "dia_letivo" },
       { "day": "2025-06-25", "type": "dia_letivo" },
       { "day": "2025-06-26", "type": "dia_letivo" },
       { "day": "2025-06-27", "type": "dia_letivo" },
       { "day": "2025-06-28", "type": "dia_letivo" },
-      { "day": "2025-06-29", "type": "dia_nao_letivo" },
+      { "day": "2025-06-29", "type": "final_de_semana" },
       { "day": "2025-06-30", "type": "dia_letivo" }
     ]
   },
@@ -559,7 +584,7 @@
       { "day": "2025-07-03", "type": "dia_letivo" },
       { "day": "2025-07-04", "type": "dia_letivo" },
       { "day": "2025-07-05", "type": "dia_letivo" },
-      { "day": "2025-07-06", "type": "dia_nao_letivo" },
+      { "day": "2025-07-06", "type": "final_de_semana" },
       { "day": "2025-07-07", "type": "ferias" },
       { "day": "2025-07-08", "type": "ferias" },
       { "day": "2025-07-09", "type": "ferias" },
@@ -660,40 +685,717 @@
         "start_date": "2025-08-29",
         "end_date": null,
         "description": "Data limite para Coordenação entregar o diário de classe com as notas, frequências e conteúdos na Seac"
+      },
+      {
+        "start_date": "2025-08-31",
+        "end_date": null,
+        "description": "Período para renovação de matrícula"
       }
     ],
     "colored_days": [
       { "day": "2025-08-01", "type": "ferias" },
       { "day": "2025-08-02", "type": "ferias" },
-      { "day": "2025-08-03", "type": "dia_nao_letivo" },
+      { "day": "2025-08-03", "type": "final_de_semana" },
       { "day": "2025-08-04", "type": "dia_letivo" },
       { "day": "2025-08-05", "type": "dia_letivo" },
       { "day": "2025-08-06", "type": "dia_letivo" },
       { "day": "2025-08-07", "type": "dia_letivo" },
       { "day": "2025-08-08", "type": "dia_letivo" },
       { "day": "2025-08-09", "type": "dia_letivo" },
-      { "day": "2025-08-10", "type": "dia_nao_letivo" },
+      { "day": "2025-08-10", "type": "final_de_semana" },
       { "day": "2025-08-11", "type": "dia_letivo" },
       { "day": "2025-08-12", "type": "dia_letivo" },
       { "day": "2025-08-13", "type": "dia_letivo" },
       { "day": "2025-08-14", "type": "dia_letivo" },
       { "day": "2025-08-15", "type": "feriado" },
-      { "day": "2025-08-16", "type": "dia_nao_letivo" },
-      { "day": "2025-08-17", "type": "dia_nao_letivo" },
+      { "day": "2025-08-16", "type": "final_de_semana" },
+      { "day": "2025-08-17", "type": "final_de_semana" },
       { "day": "2025-08-18", "type": "dia_letivo" },
       { "day": "2025-08-19", "type": "dia_letivo" },
       { "day": "2025-08-20", "type": "dia_letivo" },
       { "day": "2025-08-21", "type": "dia_letivo" },
       { "day": "2025-08-22", "type": "dia_letivo" },
       { "day": "2025-08-23", "type": "dia_letivo" },
-      { "day": "2025-08-24", "type": "dia_nao_letivo" },
+      { "day": "2025-08-24", "type": "final_de_semana" },
       { "day": "2025-08-25", "type": "dia_letivo" },
       { "day": "2025-08-26", "type": "dia_letivo" },
       { "day": "2025-08-27", "type": "dia_letivo" },
       { "day": "2025-08-28", "type": "exames_finais" },
       { "day": "2025-08-29", "type": "exames_finais" },
-      { "day": "2025-08-30", "type": "dia_nao_letivo" },
-      { "day": "2025-08-31", "type": "dia_nao_letivo" }
+      { "day": "2025-08-30", "type": "final_de_semana" },
+      { "day": "2025-08-31", "type": "final_de_semana" }
+    ]
+  },
+  {
+    "year": 2025,
+    "month": "september",
+    "events": [
+      {
+        "start_date": "2025-09-01",
+        "end_date": "2025-09-03",
+        "description": "Período para renovação de matrícula"
+      },
+      {
+        "start_date": "2025-09-03",
+        "end_date": null,
+        "description": "Planejamento Pedagógico/Administrativo"
+      },
+      {
+        "start_date": "2025-09-05",
+        "end_date": null,
+        "description": "Planejamento Pedagógico/Administrativo"
+      },
+      {
+        "start_date": "2025-09-04",
+        "end_date": null,
+        "description": "Início do 1º Bimestre Letivo de 2025/2"
+      },
+      {
+        "start_date": "2025-09-04",
+        "end_date": null,
+        "description": "Início do 2º Semestre Letivo"
+      },
+      {
+        "start_date": "2025-09-04",
+        "end_date": "2025-09-12",
+        "description": "Semana do Acolhimento"
+      },
+      {
+        "start_date": "2025-09-05",
+        "end_date": "2025-09-10",
+        "description": "Período para protocolar requerimento de Exame de Proficiência e Aproveitamento de Estudos por estudantes novatos"
+      },
+      {
+        "start_date": "2025-09-06",
+        "end_date": null,
+        "description": "Sábado letivo referente à segunda-feira"
+      },
+      {
+        "start_date": "2025-09-07",
+        "end_date": null,
+        "description": "Independência do Brasil (feriado nacional)"
+      },
+      {
+        "start_date": "2025-09-08",
+        "end_date": null,
+        "description": "Dia de Nossa Senhora da Natividade, padroeira do Tocantins (Feriado Estadual)"
+      },
+      {
+        "start_date": "2025-09-10",
+        "end_date": null,
+        "description": "Data limite para cadastrar, via sistema escolar/acadêmico, o Plano de ensino"
+      },
+      {
+        "start_date": "2025-09-15",
+        "end_date": "2025-09-18",
+        "description": "10ª semana acadêmica de engenharia civil"
+      },
+      {
+        "start_date": "2025-09-15",
+        "end_date": "2025-09-19",
+        "description": "Período limite para protocolar requerimento de inscrição como estudante ouvinte"
+      },
+      {
+        "start_date": "2025-09-15",
+        "end_date": "2025-09-19",
+        "description": "Período para realização do Exame de Proficiência e Aproveitamento de Estudos para estudantes novatos"
+      },
+      {
+        "start_date": "2025-09-18",
+        "end_date": null,
+        "description": "Data limite para o envio dos Planos de Trabalho Docente (PIT) devidamente assinados pela chefia imediata"
+      },
+      {
+        "start_date": "2025-09-20",
+        "end_date": null,
+        "description": "Data limite para requerimento de participação em Solenidade de Formatura/Colação de Grau (para o período regular)"
+      },
+      {
+        "start_date": "2025-09-20",
+        "end_date": null,
+        "description": "Sábado letivo referente à quarta-feira"
+      },
+      {
+        "start_date": "2025-09-21",
+        "end_date": null,
+        "description": "Dia Nacional de Luta da Pessoa Portadora de Deficiência"
+      },
+      {
+        "start_date": "2025-09-22",
+        "end_date": null,
+        "description": "Data limite para a publicação dos planos individuais de trabalho docente (PIT) no Portal Institucional"
+      },
+      {
+        "start_date": "2025-09-23",
+        "end_date": null,
+        "description": "Data para a publicação do resultado do Exame de Proficiência e Aproveitamento de Estudos por estudantes novatos"
+      },
+      {
+        "start_date": "2025-09-24",
+        "end_date": null,
+        "description": "Data limite para atualização da situação do estudante na disciplina para a qual teve Proficiência e/ou Aproveitamento de Estudos deferido (novato)"
+      },
+      {
+        "start_date": "2025-09-24",
+        "end_date": null,
+        "description": "Período para inclusão de matrícula para estudantes novatos que obtiveram êxito nos procedimentos de Exame de Proficiência e Aproveitamento de Estudos"
+      },
+      {
+        "start_date": "2025-09-25",
+        "end_date": null,
+        "description": "Dia Nacional do Trânsito"
+      },
+      {
+        "start_date": "2025-09-27",
+        "end_date": null,
+        "description": "Sábado letivo referente à terça-feira"
+      },
+      {
+        "start_date": "2025-09-31",
+        "end_date": null,
+        "description": "Data limite para protocolar requerimento de trancamento de componente curricular"
+      }
+    ],
+    "colored_days": [
+      { "day": "2025-09-01", "type": "dia_nao_letivo" },
+      { "day": "2025-09-02", "type": "dia_nao_letivo" },
+      { "day": "2025-09-03", "type": "dia_nao_letivo" },
+      { "day": "2025-09-04", "type": "dia_letivo" },
+      { "day": "2025-09-05", "type": "dia_letivo" },
+      { "day": "2025-09-06", "type": "dia_letivo" },
+      { "day": "2025-09-07", "type": "feriado" },
+      { "day": "2025-09-08", "type": "feriado" },
+      { "day": "2025-09-09", "type": "dia_letivo" },
+      { "day": "2025-09-10", "type": "dia_letivo" },
+      { "day": "2025-09-11", "type": "dia_letivo" },
+      { "day": "2025-09-12", "type": "dia_letivo" },
+      { "day": "2025-09-13", "type": "final_de_semana" },
+      { "day": "2025-09-14", "type": "final_de_semana" },
+      { "day": "2025-09-15", "type": "dia_letivo" },
+      { "day": "2025-09-16", "type": "dia_letivo" },
+      { "day": "2025-09-17", "type": "dia_letivo" },
+      { "day": "2025-09-18", "type": "dia_letivo" },
+      { "day": "2025-09-19", "type": "dia_letivo" },
+      { "day": "2025-09-20", "type": "dia_letivo" },
+      { "day": "2025-09-21", "type": "final_de_semana" },
+      { "day": "2025-09-22", "type": "dia_letivo" },
+      { "day": "2025-09-23", "type": "dia_letivo" },
+      { "day": "2025-09-24", "type": "dia_letivo" },
+      { "day": "2025-09-25", "type": "dia_letivo" },
+      { "day": "2025-09-26", "type": "dia_letivo" },
+      { "day": "2025-09-27", "type": "dia_letivo" },
+      { "day": "2025-09-28", "type": "final_de_semana" },
+      { "day": "2025-09-29", "type": "dia_letivo" },
+      { "day": "2025-09-30", "type": "dia_letivo" }
+    ]
+  },
+  {
+    "year": 2025,
+    "month": "october",
+    "events": [
+      {
+        "start_date": "2025-10-01",
+        "end_date": null,
+        "description": "Dia Nacional do Idoso"
+      },
+      {
+        "start_date": "2025-10-01",
+        "end_date": "2025-10-03",
+        "description": "Conecta"
+      },
+      {
+        "start_date": "2025-10-03",
+        "end_date": null,
+        "description": "Reunião bimestral ordinária de cada Colegiado de Curso"
+      },
+      {
+        "start_date": "2025-10-04",
+        "end_date": null,
+        "description": "Sábado letivo referente à quarta-feira"
+      },
+      {
+        "start_date": "2025-10-05",
+        "end_date": null,
+        "description": "Criação do Estado do Tocantins e da promulgação da primeira Constituição Estadual (Feriado Estadual)"
+      },
+      {
+        "start_date": "2025-10-12",
+        "end_date": null,
+        "description": "Nossa Senhora Aparecida (feriado nacional)"
+      },
+      {
+        "start_date": "2025-10-13",
+        "end_date": "2025-10-17",
+        "description": "Período para Colação de Grau (para período regular)"
+      },
+      {
+        "start_date": "2025-10-14",
+        "end_date": null,
+        "description": "Comemoração do Dia do Professor"
+      },
+      {
+        "start_date": "2025-10-15",
+        "end_date": null,
+        "description": "Dia do Professor (Feriado Escolar)"
+      },
+      {
+        "start_date": "2025-10-16",
+        "end_date": null,
+        "description": "Dia Mundial da Alimentação"
+      },
+      {
+        "start_date": "2025-10-16",
+        "end_date": "2025-10-18",
+        "description": "JICE"
+      },
+      {
+        "start_date": "2025-10-18",
+        "end_date": null,
+        "description": "Sábado letivo referente à segunda-feira"
+      },
+      {
+        "start_date": "2025-10-27",
+        "end_date": null,
+        "description": "Dia escolar não letivo"
+      },
+      {
+        "start_date": "2025-10-28",
+        "end_date": null,
+        "description": "Dia do Servidor Público (ponto facultativo)"
+      }
+    ],
+    "colored_days": [
+      { "day": "2025-10-01", "type": "dia_letivo" },
+      { "day": "2025-10-02", "type": "dia_letivo" },
+      { "day": "2025-10-03", "type": "dia_letivo" },
+      { "day": "2025-10-04", "type": "dia_letivo" },
+      { "day": "2025-10-05", "type": "feriado" },
+      { "day": "2025-10-06", "type": "dia_letivo" },
+      { "day": "2025-10-07", "type": "dia_letivo" },
+      { "day": "2025-10-08", "type": "dia_letivo" },
+      { "day": "2025-10-09", "type": "dia_letivo" },
+      { "day": "2025-10-10", "type": "dia_letivo" },
+      { "day": "2025-10-11", "type": "final_de_semana" },
+      { "day": "2025-10-12", "type": "feriado" },
+      { "day": "2025-10-13", "type": "dia_letivo" },
+      { "day": "2025-10-14", "type": "dia_letivo" },
+      { "day": "2025-10-15", "type": "feriado" },
+      { "day": "2025-10-16", "type": "dia_letivo" },
+      { "day": "2025-10-17", "type": "dia_letivo" },
+      { "day": "2025-10-18", "type": "dia_letivo" },
+      { "day": "2025-10-19", "type": "final_de_semana" },
+      { "day": "2025-10-20", "type": "dia_letivo" },
+      { "day": "2025-10-21", "type": "dia_letivo" },
+      { "day": "2025-10-22", "type": "dia_letivo" },
+      { "day": "2025-10-23", "type": "dia_letivo" },
+      { "day": "2025-10-24", "type": "dia_letivo" },
+      { "day": "2025-10-25", "type": "final_de_semana" },
+      { "day": "2025-10-26", "type": "final_de_semana" },
+      { "day": "2025-10-27", "type": "dia_nao_letivo" },
+      { "day": "2025-10-28", "type": "ponto_facultativo" },
+      { "day": "2025-10-29", "type": "dia_letivo" },
+      { "day": "2025-10-30", "type": "dia_letivo" },
+      { "day": "2025-10-31", "type": "dia_letivo" }
+    ]
+  },
+  {
+    "year": 2025,
+    "month": "november",
+    "events": [
+      {
+        "start_date": "2025-11-02",
+        "end_date": null,
+        "description": "Finados (feriado nacional)"
+      },
+      {
+        "start_date": "2025-11-08",
+        "end_date": null,
+        "description": "Sábado letivo referente à terça-feira"
+      },
+      {
+        "start_date": "2025-11-10",
+        "end_date": null,
+        "description": "Término do 1º bimestre letivo de 2025/2"
+      },
+      {
+        "start_date": "2025-11-11",
+        "end_date": null,
+        "description": "Início do 2º bimestre letivo de 2025/2"
+      },
+      {
+        "start_date": "2025-11-15",
+        "end_date": null,
+        "description": "Proclamação da República (feriado nacional)"
+      },
+      {
+        "start_date": "2025-11-18",
+        "end_date": null,
+        "description": "Data de previsão de lançamento de edital de notificação de estudantes em risco de desligamento da matrícula"
+      },
+      {
+        "start_date": "2025-11-18",
+        "end_date": null,
+        "description": "Data para a publicação de editais para Transferência External/Interna, Portador de Título, Reingresso e mudança de turno"
+      },
+      {
+        "start_date": "2025-11-18",
+        "end_date": "2025-11-19",
+        "description": "Período para protocolar requerimento do Exame de Proficiência e Aproveitamento de Estudos para estudantes veteranos para o 1º semestre de 2026"
+      },
+      {
+        "start_date": "2025-11-19",
+        "end_date": "2025-11-29",
+        "description": "Período para Inscrição (através do Formulário Geral do Campus Palmas) no Edital de Transferência Externa, Reingresso e Portador de Título"
+      },
+      {
+        "start_date": "2025-11-20",
+        "end_date": null,
+        "description": "Dia Nacional de Zumbi e da Consciência Negra (feriado nacional)"
+      },
+      {
+        "start_date": "2025-11-22",
+        "end_date": null,
+        "description": "II Festival de Cultura Corporal do IFTO/Campus Palmas"
+      },
+      {
+        "start_date": "2025-11-22",
+        "end_date": null,
+        "description": "Sábado letivo referente à quarta-feira"
+      },
+      {
+        "start_date": "2025-11-24",
+        "end_date": null,
+        "description": "Período/data limite para requerimento de participação em colação de grau em gabinete"
+      },
+      {
+        "start_date": "2025-11-28",
+        "end_date": null,
+        "description": "Data limite para as Coordenações encaminhar os horários para Seac"
+      },
+      {
+        "start_date": "2025-11-28",
+        "end_date": null,
+        "description": "Data limite para protocolar requerimento de validação de atividades complementares"
+      },
+      {
+        "start_date": "2025-11-29",
+        "end_date": null,
+        "description": "Sábado letivo referente à terça-feira"
+      }
+    ],
+    "colored_days": [
+      { "day": "2025-11-01", "type": "final_de_semana" },
+      { "day": "2025-11-02", "type": "feriado" },
+      { "day": "2025-11-03", "type": "dia_letivo" },
+      { "day": "2025-11-04", "type": "dia_letivo" },
+      { "day": "2025-11-05", "type": "dia_letivo" },
+      { "day": "2025-11-06", "type": "dia_letivo" },
+      { "day": "2025-11-07", "type": "dia_letivo" },
+      { "day": "2025-11-08", "type": "dia_letivo" },
+      { "day": "2025-11-09", "type": "final_de_semana" },
+      { "day": "2025-11-10", "type": "dia_letivo" },
+      { "day": "2025-11-11", "type": "dia_letivo" },
+      { "day": "2025-11-12", "type": "dia_letivo" },
+      { "day": "2025-11-13", "type": "dia_letivo" },
+      { "day": "2025-11-14", "type": "dia_letivo" },
+      { "day": "2025-11-15", "type": "feriado" },
+      { "day": "2025-11-16", "type": "final_de_semana" },
+      { "day": "2025-11-17", "type": "dia_letivo" },
+      { "day": "2025-11-18", "type": "dia_letivo" },
+      { "day": "2025-11-19", "type": "dia_letivo" },
+      { "day": "2025-11-20", "type": "feriado" },
+      { "day": "2025-11-21", "type": "dia_letivo" },
+      { "day": "2025-11-22", "type": "dia_letivo" },
+      { "day": "2025-11-23", "type": "final_de_semana" },
+      { "day": "2025-11-24", "type": "dia_letivo" },
+      { "day": "2025-11-25", "type": "dia_letivo" },
+      { "day": "2025-11-26", "type": "dia_letivo" },
+      { "day": "2025-11-27", "type": "dia_letivo" },
+      { "day": "2025-11-28", "type": "dia_letivo" },
+      { "day": "2025-11-29", "type": "dia_letivo" },
+      { "day": "2025-11-30", "type": "final_de_semana" }
+    ]
+  },
+  {
+    "year": 2025,
+    "month": "december",
+    "events": [
+      {
+        "start_date": "2025-12-02",
+        "end_date": "2025-12-06",
+        "description": "Período para realização do Exame de Proficiência e Aproveitamento de Estudos para estudantes veteranos para o 1º semestre de 2026"
+      },
+      {
+        "start_date": "2025-12-05",
+        "end_date": null,
+        "description": "Reunião bimestral ordinária de cada Colegiado de Curso"
+      },
+      {
+        "start_date": "2025-12-06",
+        "end_date": null,
+        "description": "Sábado letivo referente à segunda-feira"
+      },
+      {
+        "start_date": "2025-12-09",
+        "end_date": null,
+        "description": "2° Simpósio de Zootecnia"
+      },
+      {
+        "start_date": "2025-12-10",
+        "end_date": null,
+        "description": "Dia Internacional dos Direitos Humanos"
+      },
+      {
+        "start_date": "2025-12-12",
+        "end_date": null,
+        "description": "Data para a publicação do resultado do edital de Transferência Externa, Reingresso e Portador de Título"
+      },
+      {
+        "start_date": "2025-12-13",
+        "end_date": null,
+        "description": "Data para a publicação dos resultados do Exame de Proficiência e Aproveitamento de Estudos para estudantes veteranos do 1º semestre de 2026"
+      },
+      {
+        "start_date": "2025-12-13",
+        "end_date": null,
+        "description": "Sábado letivo referente à quinta-feira"
+      },
+      {
+        "start_date": "2025-12-17",
+        "end_date": "2025-12-19",
+        "description": "Período para matrícula dos estudantes aprovados no edital de Transferência Externa, Reingresso e Portador de Título"
+      },
+      {
+        "start_date": "2025-12-19",
+        "end_date": null,
+        "description": "Data limite para atualização da situação do vínculo dos estudantes após notificação de desligamento"
+      },
+      {
+        "start_date": "2025-12-19",
+        "end_date": null,
+        "description": "Período para inclusão de matrícula para estudantes veteranos que obtiveram êxito nos procedimentos de Exame de Proficiência e Aproveitamento de Estudos para o 1º semestre de 2026"
+      },
+      {
+        "start_date": "2025-12-23",
+        "end_date": null,
+        "description": "Dia escolar não letivo"
+      },
+      {
+        "start_date": "2025-12-24",
+        "end_date": null,
+        "description": "Dia escolar não letivo"
+      },
+      {
+        "start_date": "2025-12-26",
+        "end_date": null,
+        "description": "Dia escolar não letivo"
+      },
+      {
+        "start_date": "2025-12-29",
+        "end_date": null,
+        "description": "Dia escolar não letivo"
+      },
+      {
+        "start_date": "2025-12-30",
+        "end_date": null,
+        "description": "Dia escolar não letivo"
+      },
+      {
+        "start_date": "2025-12-24",
+        "end_date": null,
+        "description": "Véspera do Natal (ponto facultativo após as 14 horas)"
+      },
+      {
+        "start_date": "2025-12-25",
+        "end_date": null,
+        "description": "Natal (feriado nacional)"
+      },
+      {
+        "start_date": "2025-12-31",
+        "end_date": null,
+        "description": "Véspera do Ano Novo (ponto facultativo após as 14 horas)"
+      }
+    ],
+    "colored_days": [
+      { "day": "2025-12-01", "type": "dia_letivo" },
+      { "day": "2025-12-02", "type": "dia_letivo" },
+      { "day": "2025-12-03", "type": "dia_letivo" },
+      { "day": "2025-12-04", "type": "dia_letivo" },
+      { "day": "2025-12-05", "type": "dia_letivo" },
+      { "day": "2025-12-06", "type": "dia_letivo" },
+      { "day": "2025-12-07", "type": "final_de_semana" },
+      { "day": "2025-12-08", "type": "dia_letivo" },
+      { "day": "2025-12-09", "type": "dia_letivo" },
+      { "day": "2025-12-10", "type": "dia_letivo" },
+      { "day": "2025-12-11", "type": "dia_letivo" },
+      { "day": "2025-12-12", "type": "dia_letivo" },
+      { "day": "2025-12-13", "type": "dia_letivo" },
+      { "day": "2025-12-14", "type": "final_de_semana" },
+      { "day": "2025-12-15", "type": "dia_letivo" },
+      { "day": "2025-12-16", "type": "dia_letivo" },
+      { "day": "2025-12-17", "type": "dia_letivo" },
+      { "day": "2025-12-18", "type": "dia_letivo" },
+      { "day": "2025-12-19", "type": "dia_letivo" },
+      { "day": "2025-12-20", "type": "final_de_semana" },
+      { "day": "2025-12-21", "type": "final_de_semana" },
+      { "day": "2025-12-22", "type": "dia_nao_letivo" },
+      { "day": "2025-12-23", "type": "dia_nao_letivo" },
+      { "day": "2025-12-24", "type": "ponto_facultativo" },
+      { "day": "2025-12-25", "type": "feriado" },
+      { "day": "2025-12-26", "type": "dia_nao_letivo" },
+      { "day": "2025-12-27", "type": "final_de_semana" },
+      { "day": "2025-12-28", "type": "final_de_semana" },
+      { "day": "2025-12-29", "type": "dia_nao_letivo" },
+      { "day": "2025-12-30", "type": "dia_nao_letivo" },
+      { "day": "2025-12-31", "type": "ponto_facultativo" }
+    ]
+  },
+  {
+    "year": 2026,
+    "month": "january",
+    "events": [
+      {
+        "start_date": "2026-01-01",
+        "end_date": null,
+        "description": "Confraternização Universal (feriado nacional)"
+      },
+      {
+        "start_date": "2026-01-02",
+        "end_date": "2026-01-19",
+        "description": "ferias Docentes (1ª parcela relativa ao ano letivo 2026) - 18 dias"
+      },
+      {
+        "start_date": "2026-01-19",
+        "end_date": null,
+        "description": "Retorno das aulas para continuação do semestre 2025/2"
+      },
+      {
+        "start_date": "2026-01-24",
+        "end_date": null,
+        "description": "Sábado letivo referente à sexta-feira"
+      },
+      {
+        "start_date": "2026-01-31",
+        "end_date": null,
+        "description": "Sábado letivo referente à segunda-feira"
+      }
+    ],
+    "colored_days": [
+      { "day": "2026-01-01", "type": "feriado" },
+      { "day": "2026-01-02", "type": "ferias" },
+      { "day": "2026-01-03", "type": "ferias" },
+      { "day": "2026-01-04", "type": "ferias" },
+      { "day": "2026-01-05", "type": "ferias" },
+      { "day": "2026-01-06", "type": "ferias" },
+      { "day": "2026-01-07", "type": "ferias" },
+      { "day": "2026-01-08", "type": "ferias" },
+      { "day": "2026-01-09", "type": "ferias" },
+      { "day": "2026-01-10", "type": "ferias" },
+      { "day": "2026-01-11", "type": "ferias" },
+      { "day": "2026-01-12", "type": "ferias" },
+      { "day": "2026-01-13", "type": "ferias" },
+      { "day": "2026-01-14", "type": "ferias" },
+      { "day": "2026-01-15", "type": "ferias" },
+      { "day": "2026-01-16", "type": "ferias" },
+      { "day": "2026-01-17", "type": "ferias" },
+      { "day": "2026-01-18", "type": "ferias" },
+      { "day": "2026-01-19", "type": "dia_letivo" },
+      { "day": "2026-01-20", "type": "dia_letivo" },
+      { "day": "2026-01-21", "type": "dia_letivo" },
+      { "day": "2026-01-22", "type": "dia_letivo" },
+      { "day": "2026-01-23", "type": "dia_letivo" },
+      { "day": "2026-01-24", "type": "dia_letivo" },
+      { "day": "2026-01-25", "type": "final_de_semana" },
+      { "day": "2026-01-26", "type": "dia_letivo" },
+      { "day": "2026-01-27", "type": "dia_letivo" },
+      { "day": "2026-01-28", "type": "dia_letivo" },
+      { "day": "2026-01-29", "type": "dia_letivo" },
+      { "day": "2026-01-30", "type": "dia_letivo" },
+      { "day": "2026-01-31", "type": "dia_letivo" }
+    ]
+  },
+  {
+    "year": 2026,
+    "month": "february",
+    "events": [
+      {
+        "start_date": "2026-02-07",
+        "end_date": null,
+        "description": "Sábado letivo referente à quinta-feira"
+      },
+      {
+        "start_date": "2026-02-07",
+        "end_date": null,
+        "description": "Término do 2º bimestre letivo de 2025/2"
+      },
+      {
+        "start_date": "2026-02-07",
+        "end_date": null,
+        "description": "Término do 2º Semestre Letivo de 2025"
+      },
+      {
+        "start_date": "2026-02-09",
+        "end_date": "2026-02-10",
+        "description": "Exames Finais"
+      },
+      {
+        "start_date": "2026-02-12",
+        "end_date": null,
+        "description": "Publicação do Resultado Final"
+      },
+      {
+        "start_date": "2026-02-13",
+        "end_date": "2026-02-18",
+        "description": "Período para renovação de matrícula"
+      },
+      {
+        "start_date": "2026-02-16",
+        "end_date": null,
+        "description": "Carnaval (ponto facultativo)"
+      },
+      {
+        "start_date": "2026-02-17",
+        "end_date": null,
+        "description": "Carnaval (ponto facultativo)"
+      },
+      {
+        "start_date": "2026-02-18",
+        "end_date": null,
+        "description": "Quarta-feira de cinzas (ponto facultativo até às 14 horas)"
+      },
+      {
+        "start_date": "2026-02-12",
+        "end_date": null,
+        "description": "Data limite para postar no SUAP e encerrar os conteúdos ministrados, as notas e frequências dos estudantes"
+      },
+      {
+        "start_date": "2026-02-20",
+        "end_date": null,
+        "description": "Data limite para Coordenação entregar o diário de classe com as notas, frequências e conteúdos na Seac"
+      }
+    ],
+    "colored_days": [
+      { "day": "2026-02-01", "type": "final_de_semana" },
+      { "day": "2026-02-02", "type": "dia_letivo" },
+      { "day": "2026-02-03", "type": "dia_letivo" },
+      { "day": "2026-02-04", "type": "dia_letivo" },
+      { "day": "2026-02-05", "type": "dia_letivo" },
+      { "day": "2026-02-06", "type": "dia_letivo" },
+      { "day": "2026-02-07", "type": "dia_letivo" },
+      { "day": "2026-02-08", "type": "final_de_semana" },
+      { "day": "2026-02-09", "type": "exames_finais" },
+      { "day": "2026-02-10", "type": "exames_finais" },
+      { "day": "2026-02-11", "type": "dia_nao_letivo" },
+      { "day": "2026-02-12", "type": "dia_nao_letivo" },
+      { "day": "2026-02-13", "type": "dia_nao_letivo" },
+      { "day": "2026-02-14", "type": "final_de_semana" },
+      { "day": "2026-02-15", "type": "final_de_semana" },
+      { "day": "2026-02-16", "type": "ponto_facultativo" },
+      { "day": "2026-02-17", "type": "ponto_facultativo" },
+      { "day": "2026-02-18", "type": "ponto_facultativo" },
+      { "day": "2026-02-21", "type": "final_de_semana" },
+      { "day": "2026-02-22", "type": "final_de_semana" },
+      { "day": "2026-02-28", "type": "final_de_semana" }
     ]
   }
 ]
