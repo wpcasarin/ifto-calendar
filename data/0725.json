@@ -1,0 +1,49 @@
+{
+  "year": 2025,
+  "month": "july",
+  "events": [
+    {
+      "start_date": "2025-07-07",
+      "end_date": "2025-07-31",
+      "description": "Recesso Escolar (ferias Docentes) - 25 dias"
+    },
+    {
+      "start_date": "2025-07-05",
+      "end_date": null,
+      "description": "Sábado letivo referente à sexta-feira"
+    }
+  ],
+  "colored_days": [
+    { "day": "2025-07-01", "type": "dia_letivo" },
+    { "day": "2025-07-02", "type": "dia_letivo" },
+    { "day": "2025-07-03", "type": "dia_letivo" },
+    { "day": "2025-07-04", "type": "dia_letivo" },
+    { "day": "2025-07-05", "type": "dia_letivo" },
+    { "day": "2025-07-06", "type": "dia_nao_letivo" },
+    { "day": "2025-07-07", "type": "ferias" },
+    { "day": "2025-07-08", "type": "ferias" },
+    { "day": "2025-07-09", "type": "ferias" },
+    { "day": "2025-07-10", "type": "ferias" },
+    { "day": "2025-07-11", "type": "ferias" },
+    { "day": "2025-07-12", "type": "ferias" },
+    { "day": "2025-07-13", "type": "ferias" },
+    { "day": "2025-07-14", "type": "ferias" },
+    { "day": "2025-07-15", "type": "ferias" },
+    { "day": "2025-07-16", "type": "ferias" },
+    { "day": "2025-07-17", "type": "ferias" },
+    { "day": "2025-07-18", "type": "ferias" },
+    { "day": "2025-07-19", "type": "ferias" },
+    { "day": "2025-07-20", "type": "ferias" },
+    { "day": "2025-07-21", "type": "ferias" },
+    { "day": "2025-07-22", "type": "ferias" },
+    { "day": "2025-07-23", "type": "ferias" },
+    { "day": "2025-07-24", "type": "ferias" },
+    { "day": "2025-07-25", "type": "ferias" },
+    { "day": "2025-07-26", "type": "ferias" },
+    { "day": "2025-07-27", "type": "ferias" },
+    { "day": "2025-07-28", "type": "ferias" },
+    { "day": "2025-07-29", "type": "ferias" },
+    { "day": "2025-07-30", "type": "ferias" },
+    { "day": "2025-07-31", "type": "ferias" }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "year": 2025,
+  "month": "june",
+  "events": [
+    {
+      "start_date": "2025-06-02",
+      "end_date": "2025-06-06",
+      "description": "Semana das Licenciaturas"
+    },
+    {
+      "start_date": "2025-06-05",
+      "end_date": null,
+      "description": "Dia Mundial do Meio Ambiente"
+    },
+    {
+      "start_date": "2025-06-06",
+      "end_date": null,
+      "description": "Reunião bimestral ordinária de cada Colegiado de Curso"
+    },
+    {
+      "start_date": "2025-06-07",
+      "end_date": null,
+      "description": "Sábado letivo referente à quinta-feira"
+    },
+    {
+      "start_date": "2025-06-07",
+      "end_date": "2025-06-14",
+      "description": "Festa Junina"
+    },
+    {
+      "start_date": "2025-06-14",
+      "end_date": null,
+      "description": "Sábado letivo referente à quinta-feira"
+    },
+    {
+      "start_date": "2025-06-18",
+      "end_date": null,
+      "description": "Data limite para as Coordenações encaminhar os horários para Seac"
+    },
+    {
+      "start_date": "2025-06-18",
+      "end_date": null,
+      "description": "Data para a publicação de resultado de Transferência Externa e Reingresso"
+    },
+    {
+      "start_date": "2025-06-18",
+      "end_date": null,
+      "description": "Dia do Tambor de Crioula"
+    },
+    {
+      "start_date": "2025-06-19",
+      "end_date": null,
+      "description": "Corpus Christi (ponto facultativo)"
+    },
+    {
+      "start_date": "2025-06-20",
+      "end_date": null,
+      "description": "Ponto facultativo"
+    },
+    {
+      "start_date": "2025-06-23",
+      "end_date": "2025-06-27",
+      "description": "Período de matrícula de estudantes aprovados por meio de edital de Transferência Externa e Reingresso"
+    },
+    {
+      "start_date": "2025-06-23",
+      "end_date": "2025-06-27",
+      "description": "Período para protocolar requerimento de Exame de Proficiência e Aproveitamento de Estudos por estudantes veteranos do 2º semestre de 2025"
+    },
+    {
+      "start_date": "2025-06-26",
+      "end_date": null,
+      "description": "Dia Internacional de Combate às Drogas, instituído pela Organização das Nações Unidas (ONU)"
+    },
+    {
+      "start_date": "2025-06-27",
+      "end_date": null,
+      "description": "Data limite para atualização da situação do vínculo dos estudantes após notificação de desligamento"
+    },
+    {
+      "start_date": "2025-06-28",
+      "end_date": null,
+      "description": "Sábado letivo referente à sexta-feira"
+    }
+  ],
+  "colored_days": [
+    { "day": "2025-06-01", "type": "dia_nao_letivo" },
+    { "day": "2025-06-02", "type": "dia_letivo" },
+    { "day": "2025-06-03", "type": "dia_letivo" },
+    { "day": "2025-06-04", "type": "dia_letivo" },
+    { "day": "2025-06-05", "type": "dia_letivo" },
+    { "day": "2025-06-06", "type": "dia_letivo" },
+    { "day": "2025-06-07", "type": "dia_letivo" },
+    { "day": "2025-06-08", "type": "dia_nao_letivo" },
+    { "day": "2025-06-09", "type": "dia_letivo" },
+    { "day": "2025-06-10", "type": "dia_letivo" },
+    { "day": "2025-06-11", "type": "dia_letivo" },
+    { "day": "2025-06-12", "type": "dia_letivo" },
+    { "day": "2025-06-13", "type": "dia_letivo" },
+    { "day": "2025-06-14", "type": "dia_letivo" },
+    { "day": "2025-06-15", "type": "dia_nao_letivo" },
+    { "day": "2025-06-16", "type": "dia_letivo" },
+    { "day": "2025-06-17", "type": "dia_letivo" },
+    { "day": "2025-06-18", "type": "dia_letivo" },
+    { "day": "2025-06-19", "type": "ponto_facultativo" },
+    { "day": "2025-06-20", "type": "ponto_facultativo" },
+    { "day": "2025-06-21", "type": "dia_nao_letivo" },
+    { "day": "2025-06-22", "type": "dia_nao_letivo" },
+    { "day": "2025-06-23", "type": "dia_letivo" },
+    { "day": "2025-06-24", "type": "dia_letivo" },
+    { "day": "2025-06-25", "type": "dia_letivo" },
+    { "day": "2025-06-26", "type": "dia_letivo" },
+    { "day": "2025-06-27", "type": "dia_letivo" },
+    { "day": "2025-06-28", "type": "dia_letivo" },
+    { "day": "2025-06-29", "type": "dia_nao_letivo" },
+    { "day": "2025-06-30", "type": "dia_letivo" }
+  ]
+}

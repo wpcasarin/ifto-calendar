@@ -7,7 +7,7 @@ export type EventInfoType = {
 export const EventInfo: React.FC<EventInfoType> = (props) => {
   return (
     <>
-      <div role="alert" className="alert w-full bg-white">
+      <div role="alert" className="alert bg-base-100 w-full">
         <ul>
           <li className="font-bold">{props.events[0].date.toLocaleDateString('pt-BR')}</li>
           {props.events.map((v, i) => {

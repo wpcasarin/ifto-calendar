@@ -1,0 +1,163 @@
+{
+  "year": 2025,
+  "month": "september",
+  "events": [
+    {
+      "start_date": "2025-09-01",
+      "end_date": "2025-09-03",
+      "description": "Período para renovação de matrícula"
+    },
+    {
+      "start_date": "2025-09-03",
+      "end_date": null,
+      "description": "Planejamento Pedagógico/Administrativo"
+    },
+    {
+      "start_date": "2025-09-05",
+      "end_date": null,
+      "description": "Planejamento Pedagógico/Administrativo"
+    },
+    {
+      "start_date": "2025-09-04",
+      "end_date": null,
+      "description": "Início do 1º Bimestre Letivo de 2025/2"
+    },
+    {
+      "start_date": "2025-09-04",
+      "end_date": null,
+      "description": "Início do 2º Semestre Letivo"
+    },
+    {
+      "start_date": "2025-09-04",
+      "end_date": "2025-09-12",
+      "description": "Semana do Acolhimento"
+    },
+    {
+      "start_date": "2025-09-05",
+      "end_date": "2025-09-10",
+      "description": "Período para protocolar requerimento de Exame de Proficiência e Aproveitamento de Estudos por estudantes novatos"
+    },
+    {
+      "start_date": "2025-09-06",
+      "end_date": null,
+      "description": "Sábado letivo referente à segunda-feira"
+    },
+    {
+      "start_date": "2025-09-07",
+      "end_date": null,
+      "description": "Independência do Brasil (feriado nacional)"
+    },
+    {
+      "start_date": "2025-09-08",
+      "end_date": null,
+      "description": "Dia de Nossa Senhora da Natividade, padroeira do Tocantins (Feriado Estadual)"
+    },
+    {
+      "start_date": "2025-09-10",
+      "end_date": null,
+      "description": "Data limite para cadastrar, via sistema escolar/acadêmico, o Plano de ensino"
+    },
+    {
+      "start_date": "2025-09-15",
+      "end_date": "2025-09-18",
+      "description": "10ª semana acadêmica de engenharia civil"
+    },
+    {
+      "start_date": "2025-09-15",
+      "end_date": "2025-09-19",
+      "description": "Período limite para protocolar requerimento de inscrição como estudante ouvinte"
+    },
+    {
+      "start_date": "2025-09-15",
+      "end_date": "2025-09-19",
+      "description": "Período para realização do Exame de Proficiência e Aproveitamento de Estudos para estudantes novatos"
+    },
+    {
+      "start_date": "2025-09-18",
+      "end_date": null,
+      "description": "Data limite para o envio dos Planos de Trabalho Docente (PIT) devidamente assinados pela chefia imediata"
+    },
+    {
+      "start_date": "2025-09-20",
+      "end_date": null,
+      "description": "Data limite para requerimento de participação em Solenidade de Formatura/Colação de Grau (para o período regular)"
+    },
+    {
+      "start_date": "2025-09-20",
+      "end_date": null,
+      "description": "Sábado letivo referente à quarta-feira"
+    },
+    {
+      "start_date": "2025-09-21",
+      "end_date": null,
+      "description": "Dia Nacional de Luta da Pessoa Portadora de Deficiência"
+    },
+    {
+      "start_date": "2025-09-22",
+      "end_date": null,
+      "description": "Data limite para a publicação dos planos individuais de trabalho docente (PIT) no Portal Institucional"
+    },
+    {
+      "start_date": "2025-09-23",
+      "end_date": null,
+      "description": "Data para a publicação do resultado do Exame de Proficiência e Aproveitamento de Estudos por estudantes novatos"
+    },
+    {
+      "start_date": "2025-09-24",
+      "end_date": null,
+      "description": "Data limite para atualização da situação do estudante na disciplina para a qual teve Proficiência e/ou Aproveitamento de Estudos deferido (novato)"
+    },
+    {
+      "start_date": "2025-09-24",
+      "end_date": null,
+      "description": "Período para inclusão de matrícula para estudantes novatos que obtiveram êxito nos procedimentos de Exame de Proficiência e Aproveitamento de Estudos"
+    },
+    {
+      "start_date": "2025-09-25",
+      "end_date": null,
+      "description": "Dia Nacional do Trânsito"
+    },
+    {
+      "start_date": "2025-09-27",
+      "end_date": null,
+      "description": "Sábado letivo referente à terça-feira"
+    },
+    {
+      "start_date": "2025-09-31",
+      "end_date": null,
+      "description": "Data limite para protocolar requerimento de trancamento de componente curricular"
+    }
+  ],
+  "colored_days": [
+    { "day": "2025-09-01", "type": "dia_nao_letivo" },
+    { "day": "2025-09-02", "type": "dia_nao_letivo" },
+    { "day": "2025-09-03", "type": "planejamento_pedagogico" },
+    { "day": "2025-09-04", "type": "dia_letivo" },
+    { "day": "2025-09-05", "type": "planejamento_pedagogico" },
+    { "day": "2025-09-06", "type": "dia_letivo" },
+    { "day": "2025-09-07", "type": "feriado" },
+    { "day": "2025-09-08", "type": "feriado" },
+    { "day": "2025-09-09", "type": "dia_letivo" },
+    { "day": "2025-09-10", "type": "dia_letivo" },
+    { "day": "2025-09-11", "type": "dia_letivo" },
+    { "day": "2025-09-12", "type": "dia_letivo" },
+    { "day": "2025-09-13", "type": "dia_nao_letivo" },
+    { "day": "2025-09-14", "type": "dia_nao_letivo" },
+    { "day": "2025-09-15", "type": "dia_letivo" },
+    { "day": "2025-09-16", "type": "dia_letivo" },
+    { "day": "2025-09-17", "type": "dia_letivo" },
+    { "day": "2025-09-18", "type": "dia_letivo" },
+    { "day": "2025-09-19", "type": "dia_letivo" },
+    { "day": "2025-09-20", "type": "dia_letivo" },
+    { "day": "2025-09-21", "type": "dia_nao_letivo" },
+    { "day": "2025-09-22", "type": "dia_letivo" },
+    { "day": "2025-09-23", "type": "dia_letivo" },
+    { "day": "2025-09-24", "type": "dia_letivo" },
+    { "day": "2025-09-25", "type": "dia_letivo" },
+    { "day": "2025-09-26", "type": "dia_letivo" },
+    { "day": "2025-09-27", "type": "dia_letivo" },
+    { "day": "2025-09-28", "type": "dia_nao_letivo" },
+    { "day": "2025-09-29", "type": "dia_letivo" },
+    { "day": "2025-09-30", "type": "dia_letivo" }
+  ]
+}

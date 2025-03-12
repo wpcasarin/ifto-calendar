@@ -1,0 +1,114 @@
+{
+  "year": 2025,
+  "month": "august",
+  "events": [
+    {
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-02",
+      "description": "Recesso Escolar (Férias Docentes) - 2 dias"
+    },
+    {
+      "start_date": "2025-08-04",
+      "end_date": "2025-08-06",
+      "description": "Período para realização do Exame de Proficiência e Aproveitamento de Estudos por estudantes veteranos do 2º semestre de 2025"
+    },
+    {
+      "start_date": "2025-08-08",
+      "end_date": null,
+      "description": "Data para a publicação dos resultados do Exame de Proficiência e Aproveitamento de Estudos por estudantes veteranos do 2º semestre de 2025"
+    },
+    {
+      "start_date": "2025-08-09",
+      "end_date": null,
+      "description": "Sábado letivo referente à segunda-feira"
+    },
+    {
+      "start_date": "2025-08-11",
+      "end_date": null,
+      "description": "Data limite para atualização da situação do estudante na disciplina para a qual teve proficiência/aproveitamento deferido (veteranos)"
+    },
+    {
+      "start_date": "2025-08-15",
+      "end_date": null,
+      "description": "Senhor do Bonfim (feriado estadual)"
+    },
+    {
+      "start_date": "2025-08-16",
+      "end_date": null,
+      "description": "Data limite para protocolar requerimento de validação de atividades complementares"
+    },
+    {
+      "start_date": "2025-08-23",
+      "end_date": null,
+      "description": "Sábado letivo referente à terça-feira"
+    },
+    {
+      "start_date": "2025-08-27",
+      "end_date": null,
+      "description": "Fim do 1º Semestre letivo"
+    },
+    {
+      "start_date": "2025-08-27",
+      "end_date": null,
+      "description": "Término do 2º bimestre letivo"
+    },
+    {
+      "start_date": "2025-08-28",
+      "end_date": null,
+      "description": "Data limite para postar no SUAP e encerrar os conteúdos ministrados, as notas e frequências dos estudantes"
+    },
+    {
+      "start_date": "2025-08-28",
+      "end_date": null,
+      "description": "Publicação do Resultado Final"
+    },
+    {
+      "start_date": "2025-08-28",
+      "end_date": "2025-08-29",
+      "description": "Exames Finais"
+    },
+    {
+      "start_date": "2025-08-29",
+      "end_date": null,
+      "description": "Data limite para Coordenação entregar o diário de classe com as notas, frequências e conteúdos na Seac"
+    },
+    {
+      "start_date": "2025-08-31",
+      "end_date": null,
+      "description": "Período para renovação de matrícula"
+    }
+  ],
+  "colored_days": [
+    { "day": "2025-08-01", "type": "ferias" },
+    { "day": "2025-08-02", "type": "ferias" },
+    { "day": "2025-08-03", "type": "dia_nao_letivo" },
+    { "day": "2025-08-04", "type": "dia_letivo" },
+    { "day": "2025-08-05", "type": "dia_letivo" },
+    { "day": "2025-08-06", "type": "dia_letivo" },
+    { "day": "2025-08-07", "type": "dia_letivo" },
+    { "day": "2025-08-08", "type": "dia_letivo" },
+    { "day": "2025-08-09", "type": "dia_letivo" },
+    { "day": "2025-08-10", "type": "dia_nao_letivo" },
+    { "day": "2025-08-11", "type": "dia_letivo" },
+    { "day": "2025-08-12", "type": "dia_letivo" },
+    { "day": "2025-08-13", "type": "dia_letivo" },
+    { "day": "2025-08-14", "type": "dia_letivo" },
+    { "day": "2025-08-15", "type": "feriado" },
+    { "day": "2025-08-16", "type": "dia_nao_letivo" },
+    { "day": "2025-08-17", "type": "dia_nao_letivo" },
+    { "day": "2025-08-18", "type": "dia_letivo" },
+    { "day": "2025-08-19", "type": "dia_letivo" },
+    { "day": "2025-08-20", "type": "dia_letivo" },
+    { "day": "2025-08-21", "type": "dia_letivo" },
+    { "day": "2025-08-22", "type": "dia_letivo" },
+    { "day": "2025-08-23", "type": "dia_letivo" },
+    { "day": "2025-08-24", "type": "dia_nao_letivo" },
+    { "day": "2025-08-25", "type": "dia_letivo" },
+    { "day": "2025-08-26", "type": "dia_letivo" },
+    { "day": "2025-08-27", "type": "dia_letivo" },
+    { "day": "2025-08-28", "type": "exames_finais" },
+    { "day": "2025-08-29", "type": "exames_finais" },
+    { "day": "2025-08-30", "type": "dia_nao_letivo" },
+    { "day": "2025-08-31", "type": "dia_nao_letivo" }
+  ]
+}

@@ -65,8 +65,40 @@ export const Calendar = () => {
   };
 
   return (
-    <div className="mx-auto flex flex-col items-center gap-2 px-4">
+    <div className="mx-auto flex grow flex-col items-center gap-2 px-4">
       <DayPicker
+        footer={
+          <ul className="text-xs">
+            <li className="flex items-center gap-1">
+              <div className="bg-dl size-2 rounded-full"></div>
+              <span>Dia letivo</span>
+            </li>
+            <li className="flex items-center gap-1">
+              <div className="bg-dnl size-2 rounded-full"></div>
+              <span>Dia não letivo</span>
+            </li>
+            <li className="flex items-center gap-1">
+              <div className="bg-feriado size-2 rounded-full"></div>
+              <span>Feriado</span>
+            </li>
+            <li className="flex items-center gap-1">
+              <div className="bg-pf size-2 rounded-full"></div>
+              <span>Ponto facultativo</span>
+            </li>
+            <li className="flex items-center gap-1">
+              <div className="bg-ef size-2 rounded-full"></div>
+              <span>Exames finais</span>
+            </li>
+            <li className="flex items-center gap-1">
+              <div className="bg-fs size-2 rounded-full"></div>
+              <span>Fim de semana</span>
+            </li>
+            <li className="flex items-center gap-1">
+              <div className="bg-ferias size-2 rounded-full"></div>
+              <span>Férias</span>
+            </li>
+          </ul>
+        }
         month={month}
         onMonthChange={setMonth}
         startMonth={new Date(2025, 0)}
@@ -100,7 +132,7 @@ export const Calendar = () => {
 
       {currentEvents !== undefined && currentEvents.length > 0 ? <EventInfo events={currentEvents} /> : null}
 
-      <div className="bg-base-100 border-base-300 collapse border">
+      <div className="bg-base-100 border-base-300 collapse-arrow collapse mb-4 rounded-lg border">
         <input type="checkbox" defaultChecked={false} />
         <div className="collapse-title font-semibold">Agenda do mês</div>
 
