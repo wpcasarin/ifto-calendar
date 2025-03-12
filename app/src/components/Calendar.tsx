@@ -139,11 +139,11 @@ export const Calendar = () => {
         <div className="collapse-content text-sm">
           <table className="table">
             <tbody>
-              {events?.map((e) => {
+              {events?.map((e, i) => {
                 const start = new Date(`${e.start_date}T00:00:00`);
                 if (month.getMonth() === start.getMonth()) {
                   return (
-                    <tr className="grid grid-cols-9 text-xs">
+                    <tr key={i} className="grid grid-cols-9 text-xs">
                       <td className="col-span-2 self-center px-0">
                         <span>{e.start_date.split('-')[2]}</span>
                         {e.end_date && <span> à {e.end_date.split('-')[2]}</span>}
