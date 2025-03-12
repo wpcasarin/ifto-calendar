@@ -4,7 +4,6 @@ import data from '../data.json';
 import { EventInfo } from './EventInfo';
 import { useState } from 'react';
 import { getDatesBetween } from '../utils';
-import { isMobile } from 'react-device-detect';
 
 const addToCalendar = (startDate: string, endDate: string | null, message: string) => {
   startDate = startDate.replace(/-/g, '');
@@ -20,13 +19,7 @@ const addToCalendar = (startDate: string, endDate: string | null, message: strin
   const sanitizedMessage = encodeURIComponent(message);
   const sanitizedTitle = encodeURIComponent('Calendário IFTO');
 
-  let url: string;
-
-  if (isMobile) {
-    url = `intent://calendar/event?title=${sanitizedTitle}&details=${sanitizedMessage}&dates=${startDate}/${endDate}#Intent;scheme=google.calendar;package=com.google.android.calendar;end`;
-  } else {
-    url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${sanitizedTitle}&dates=${startDate}/${endDate}&details=${sanitizedMessage}`;
-  }
+  const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${sanitizedTitle}&dates=${startDate}/${endDate}&details=${sanitizedMessage}`;
 
   window.open(url, '_blank', 'noopener,noreferrer');
 };
