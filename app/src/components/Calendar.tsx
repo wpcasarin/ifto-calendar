@@ -5,16 +5,23 @@ import { EventInfo } from './EventInfo';
 import { useState } from 'react';
 import { getDatesBetween } from '../utils';
 
-// const getCalendarUrl = (date: Date, message: string) => {
-//   const year = date.getFullYear();
-//   const month = String(date.getMonth() + 1).padStart(2, '0');
-//   const day = String(date.getDate()).padStart(2, '0');
-//   const stringDate = `${year}${month}${day}`;
-//   const sanitizedMessage = encodeURIComponent(message);
+const addToCalendar = (startDate: string, endDate: string | null, message: string) => {
+  startDate = startDate.replace(/-/g, '');
 
-//   const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=IFTO&dates=${stringDate}/${stringDate}&details=${sanitizedMessage}`;
-//   window.open(url, '_blank', 'noopener,noreferrer');
-// };
+  if (endDate) {
+    const date = new Date(`${endDate}T00:00:00`);
+    date.setDate(date.getDate() + 1);
+    endDate = date.toISOString().split('T')[0].replace(/-/g, '');
+  } else {
+    endDate = startDate;
+  }
+
+  const sanitizedMessage = encodeURIComponent(message);
+  const sanitizedTitle = encodeURIComponent('Calendário IFTO');
+
+  const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${sanitizedTitle}&dates=${startDate}/${endDate}&details=${sanitizedMessage}`;
+  window.open(url, '_blank', 'noopener,noreferrer');
+};
 
 export type EventType = {
   date: Date;
@@ -110,7 +117,10 @@ export const Calendar = () => {
                       </td>
                       <td className="col-span-6 self-center px-0">{e.description}</td>
                       <td className="col-span-1 self-center justify-self-end px-0">
-                        <button className="btn btn-xs btn-soft btn-primary btn-square">
+                        <button
+                          onClick={() => addToCalendar(e.start_date, e.end_date, e.description)}
+                          className="btn btn-xs btn-soft btn-primary btn-square"
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
