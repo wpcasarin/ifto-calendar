@@ -59,11 +59,6 @@ export const Calendar = () => {
   return (
     <div className="mx-auto flex flex-col items-center gap-2 px-4">
       <DayPicker
-        footer={
-          currentEvents !== undefined && currentEvents.length > 0 ? (
-            <EventInfo events={currentEvents} />
-          ) : null
-        }
         month={month}
         onMonthChange={setMonth}
         startMonth={new Date(2025, 0)}
@@ -94,9 +89,12 @@ export const Calendar = () => {
         }}
         className="react-day-picker"
       />
+
+      {currentEvents !== undefined && currentEvents.length > 0 ? <EventInfo events={currentEvents} /> : null}
+
       <div className="bg-base-100 border-base-300 collapse border">
         <input type="checkbox" defaultChecked={false} />
-        <div className="collapse-title font-semibold">Lista de eventos</div>
+        <div className="collapse-title font-semibold">Agenda do mês</div>
 
         <div className="collapse-content text-sm">
           <table className="table">
@@ -105,9 +103,31 @@ export const Calendar = () => {
                 const start = new Date(`${e.start_date}T00:00:00`);
                 if (month.getMonth() === start.getMonth()) {
                   return (
-                    <tr className="text-xs">
-                      <td className="pl-0">{e.start_date}</td>
-                      <td className="pr-0">{e.description}</td>
+                    <tr className="grid grid-cols-9 text-xs">
+                      <td className="col-span-2 self-center px-0">
+                        <span>{e.start_date.split('-')[2]}</span>
+                        {e.end_date && <span> à {e.end_date.split('-')[2]}</span>}
+                      </td>
+                      <td className="col-span-6 self-center px-0">{e.description}</td>
+                      <td className="col-span-1 self-center justify-self-end px-0">
+                        <button className="btn btn-xs btn-soft btn-primary btn-square">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            className="size-4"
+                          >
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                            <line x1="16" y1="2" x2="16" y2="6" />
+                            <line x1="8" y1="2" x2="8" y2="6" />
+                            <line x1="3" y1="10" x2="21" y2="10" />
+                          </svg>
+                        </button>
+                      </td>
                     </tr>
                   );
                 }
